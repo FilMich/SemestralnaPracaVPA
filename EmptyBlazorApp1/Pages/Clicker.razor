@@ -1,0 +1,17 @@
+﻿@page "/clicker"
+
+
+
+<h3>Clicker</h3>
+
+<button @onclick = "incc">click me!</button>
+
+<p>you clicked @count times</p>
+
+@code {
+	private int count = 0;
+	private void incc()
+	{
+		count++;
+	}
+}
